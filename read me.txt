@@ -1,5 +1,7 @@
 This is a Python package enabling users to "chat" with their documents using a local Retrieval Augmented Generation (RAG) approach, without needing an external Large Language Model (LLM) provider.
 
+To enable this functionality, users need to create a "data" folder in the same directory as the Python file. The data folder should have the same directory structure as the Python file. For example, if your Python file is located at path/to/my_script.py, then the data folder should be located at path/to/data. This setup ensures that the Python script can properly access and read the necessary data files.
+
 Ollama for Local Inference
 localrag uses Ollama for local inference. Ollama allows for easy model serving and inference. To set up Ollama:
 
