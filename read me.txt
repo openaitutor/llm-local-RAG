@@ -1,0 +1,6 @@
+This is a Python package enabling users to "chat" with their documents using a local Retrieval Augmented Generation (RAG) approach, without needing an external Large Language Model (LLM) provider.
+
+Ollama for Local Inference
+localrag uses Ollama for local inference. Ollama allows for easy model serving and inference. To set up Ollama:
+
+From command line, fetch a model from this list of options: e.g., ollama pull llama2
